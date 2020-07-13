@@ -1,8 +1,9 @@
 
-## Put comments here that give an overall description of what your
-## functions do
+## set is used to set the matrix
+## getMatrix is used to get matrix stored
+## getInv is used to get the inverse of the matrix
+## setInv sets the the computed inverse value to the inv
 
-## set matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
